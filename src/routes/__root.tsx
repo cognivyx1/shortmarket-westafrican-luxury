@@ -82,8 +82,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "One40vue" },
       { name: "twitter:description", content: "ONE40vue Elegance is a premium one-page website for a West African restaurant and bar in Cape Town." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/790a6498-a9f1-465a-ac37-373d479989b5/id-preview-e371d387--b0bf23c8-f124-4abd-ac8b-d900a747d324.lovable.app-1778356755956.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/790a6498-a9f1-465a-ac37-373d479989b5/id-preview-e371d387--b0bf23c8-f124-4abd-ac8b-d900a747d324.lovable.app-1778356755956.png" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/G918q1eCdAPqKhZ7UPFCRBzuirN2/social-images/social-1778620037639-hero_img.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/G918q1eCdAPqKhZ7UPFCRBzuirN2/social-images/social-1778620037639-hero_img.webp" },
     ],
     links: [
       {
