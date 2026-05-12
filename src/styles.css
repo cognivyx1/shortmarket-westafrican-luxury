@@ -1,0 +1,142 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-serif: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", "Helvetica Neue", system-ui, sans-serif;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --radius-xl: 22px;
+  --radius-2xl: 32px;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-cream: var(--cream);
+  --color-sand: var(--sand);
+  --color-clay: var(--clay);
+  --color-espresso: var(--espresso);
+  --color-gold: var(--gold);
+}
+
+:root {
+  --radius: 0.5rem;
+
+  /* Brand palette — nude, cream, beige, taupe, espresso */
+  --cream: oklch(0.965 0.018 80);
+  --sand: oklch(0.905 0.028 75);
+  --clay: oklch(0.55 0.105 45);
+  --espresso: oklch(0.255 0.035 45);
+  --gold: oklch(0.72 0.105 70);
+
+  --background: oklch(0.965 0.018 80);
+  --foreground: oklch(0.255 0.035 45);
+  --card: oklch(0.945 0.022 78);
+  --card-foreground: oklch(0.255 0.035 45);
+  --popover: oklch(0.965 0.018 80);
+  --popover-foreground: oklch(0.255 0.035 45);
+  --primary: oklch(0.255 0.035 45);
+  --primary-foreground: oklch(0.965 0.018 80);
+  --secondary: oklch(0.905 0.028 75);
+  --secondary-foreground: oklch(0.255 0.035 45);
+  --muted: oklch(0.92 0.022 78);
+  --muted-foreground: oklch(0.48 0.035 50);
+  --accent: oklch(0.55 0.105 45);
+  --accent-foreground: oklch(0.965 0.018 80);
+  --destructive: oklch(0.55 0.18 27);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: oklch(0.85 0.025 70);
+  --input: oklch(0.85 0.025 70);
+  --ring: oklch(0.55 0.105 45);
+
+  --gradient-warm: linear-gradient(180deg, oklch(0.965 0.018 80) 0%, oklch(0.92 0.028 70) 100%);
+  --gradient-hero-overlay: linear-gradient(180deg, oklch(0.18 0.03 45 / 0.25) 0%, oklch(0.18 0.03 45 / 0.55) 60%, oklch(0.15 0.025 45 / 0.85) 100%);
+  --shadow-soft: 0 30px 60px -30px oklch(0.25 0.04 45 / 0.35);
+  --shadow-elegant: 0 40px 80px -40px oklch(0.25 0.04 45 / 0.45);
+}
+
+.dark {
+  --background: oklch(0.18 0.025 45);
+  --foreground: oklch(0.95 0.02 75);
+  --card: oklch(0.22 0.028 45);
+  --card-foreground: oklch(0.95 0.02 75);
+  --primary: oklch(0.95 0.02 75);
+  --primary-foreground: oklch(0.18 0.025 45);
+  --border: oklch(1 0 0 / 0.08);
+}
+
+@layer base {
+  * { border-color: var(--color-border); }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer utilities {
+  .font-serif { font-family: var(--font-serif); }
+  .font-sans { font-family: var(--font-sans); }
+
+  .tracking-luxe { letter-spacing: 0.32em; }
+  .tracking-wide-luxe { letter-spacing: 0.2em; }
+
+  .bg-gradient-warm { background-image: var(--gradient-warm); }
+  .bg-gradient-hero-overlay { background-image: var(--gradient-hero-overlay); }
+
+  .shadow-soft { box-shadow: var(--shadow-soft); }
+  .shadow-elegant { box-shadow: var(--shadow-elegant); }
+
+  .fade-in-up {
+    animation: fadeInUp 1.1s cubic-bezier(.2,.7,.2,1) both;
+  }
+  .fade-in {
+    animation: fadeIn 1.4s ease-out both;
+  }
+  .delay-150 { animation-delay: .15s; }
+  .delay-300 { animation-delay: .3s; }
+  .delay-500 { animation-delay: .5s; }
+  .delay-700 { animation-delay: .7s; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
