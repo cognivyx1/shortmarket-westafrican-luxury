@@ -151,7 +151,7 @@ function Hero() {
           Where the Horizon Meets the Heritage.
         </p>
         <p className="fade-in-up delay-500 mt-3 max-w-md md:max-w-lg text-[19px] leading-[1.65] md:text-[17px] lg:text-[19px] md:leading-relaxed text-cream/85 text-center md:text-left mx-auto md:mx-0">
-          West African Restaurant and Roof bar
+          West African Restaurant and Roof Top Bar
         </p>
 
         <div className="fade-in-up delay-700 mt-7 flex flex-col md:flex-row flex-wrap items-center justify-center md:justify-start gap-6 md:gap-3.5">
@@ -199,10 +199,10 @@ function About() {
           </h2>
           <div className="mt-4 space-y-4 text-base leading-relaxed text-muted-foreground md:mt-6 md:space-y-6 md:text-lg">
             <p>
-              Ascend to a space where the soul of West Africa reaches for the clouds. Perched above the city bustle, <strong className="font-semibold">ONE40</strong> "vue" offers a sensory journey that begins with a panoramic mountain backdrop and ends with the bold, sun-kissed flavors of the coast.
+              Ascend to a space where the soul of West Africa reaches for the clouds. Perched above the city bustle, <strong className="font-semibold">ONE40</strong> "View" offers a sensory journey that begins with a panoramic mountain backdrop and ends with the bold, sun-kissed flavors of the coast.
             </p>
             <p>
-              As the sun dips behind the peaks, painting the sky in hues of amber and violet, enjoy an atmosphere that is as elevated as the vue. From the smoky depth of our Jollof to the botanical brightness of our signature cocktails, every moment here is a celebration of the heights—in culture, in flavor, and in perspective.
+              As the sun dips behind the peaks, painting the sky in hues of amber and violet, enjoy an atmosphere that is as elevated as the <strong className="font-semibold">"vue"</strong>. From the smoky depth of our Jollof to the botanical brightness of our signature cocktails, every moment here is a celebration of the heights—in culture, in flavor, and in perspective.
             </p>
           </div>
         </div>
@@ -340,7 +340,7 @@ function Experience() {
           <dl className="mt-12 grid grid-cols-2 gap-y-8 border-t border-border pt-10 text-sm">
             {[
               ["Cuisine", "West African"],
-              ["Setting", "Restaurant & Bar"],
+              ["Setting", "Restaurant & Roof Top Bar"],
               ["Hours", "Monday – Sunday\n10:00 AM – 01:00 AM"],
               ["Dress", "Smart Casual"],
             ].map(([k, v]) => (
@@ -393,8 +393,8 @@ function Contact() {
               <a href="tel:+27665096997" className="underline-offset-4 hover:underline">
                 +27 66 509 6997
               </a><br />
-              <a href="mailto:hello@one40vue.co.za" className="underline-offset-4 hover:underline">
-                hello@one40vue.co.za
+              <a href="mailto:info@one40vue.co.za" className="underline-offset-4 hover:underline">
+                info@one40vue.co.za
               </a>
             </p>
           </div>
