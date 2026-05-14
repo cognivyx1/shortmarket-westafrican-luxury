@@ -148,11 +148,10 @@ function Hero() {
         />
 
         <p className="fade-in-up delay-300 mt-6 max-w-xl font-serif text-[1.65rem] italic text-cream/95 leading-snug md:text-[1.7rem] lg:text-[2rem] text-center md:text-left mx-auto md:mx-0">
-          West African Restaurant and Bar
+          Where the Horizon Meets the Heritage.
         </p>
         <p className="fade-in-up delay-500 mt-3 max-w-md md:max-w-lg text-[19px] leading-[1.65] md:text-[17px] lg:text-[19px] md:leading-relaxed text-cream/85 text-center md:text-left mx-auto md:mx-0">
-          A quiet, candle-lit room in the heart of Cape Town's City Centre — where heirloom recipes
-          meet refined hospitality.
+          West African Restaurant and Roof bar
         </p>
 
         <div className="fade-in-up delay-700 mt-7 flex flex-col md:flex-row flex-wrap items-center justify-center md:justify-start gap-6 md:gap-3.5">
@@ -200,14 +199,10 @@ function About() {
           </h2>
           <div className="mt-4 space-y-4 text-base leading-relaxed text-muted-foreground md:mt-6 md:space-y-6 md:text-lg">
             <p>
-              ONE40vue is an intimate restaurant and bar on Shortmarket Street, devoted to the
-              flavours of West Africa — slow-cooked stews, smoke-kissed grills and the aromatics
-              of pepper, palm and grain.
+              Ascend to a space where the soul of West Africa reaches for the clouds. Perched above the city bustle, <strong className="font-semibold">ONE40</strong> "vue" offers a sensory journey that begins with a panoramic mountain backdrop and ends with the bold, sun-kissed flavors of the coast.
             </p>
             <p>
-              Our kitchen draws from Lagos, Accra, Dakar and Abidjan, then plates them with the
-              precision and restraint of fine dining. The room is warm, candle-lit and quiet —
-              built for long evenings and considered conversation.
+              As the sun dips behind the peaks, painting the sky in hues of amber and violet, enjoy an atmosphere that is as elevated as the vue. From the smoky depth of our Jollof to the botanical brightness of our signature cocktails, every moment here is a celebration of the heights—in culture, in flavor, and in perspective.
             </p>
           </div>
         </div>
