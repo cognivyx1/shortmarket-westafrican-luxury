@@ -406,8 +406,7 @@ function Contact() {
           <div>
             <p className="text-[10px] uppercase tracking-luxe text-gold">Follow</p>
             <p className="mt-3 font-serif text-lg leading-snug">
-              <a href="#" className="block hover:text-gold">Instagram</a>
-              <a href="#" className="block hover:text-gold">Facebook</a>
+              <a href="https://www.instagram.com/one40vue/" target="_blank" rel="noopener noreferrer" className="block hover:text-gold">Instagram</a>
             </p>
           </div>
         </div>

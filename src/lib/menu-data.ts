@@ -10,7 +10,7 @@ export const categories: MenuCategory[] = [
   {
     title: "Rice",
     items: [
-      { name: "White Rice", price: "90", desc: "Basmati / long grain rice." },
+      { name: "White Rice", price: "100", desc: "Basmati / long grain rice." },
       {
         name: "Jollof Rice",
         price: "270",
@@ -35,6 +35,7 @@ export const categories: MenuCategory[] = [
       { name: "Village Rice", price: "320", desc: "Basmati with chilli, spices and dry fish." },
       { name: "Coconut Fried Rice", price: "320", desc: "Cooked with bell peppers, spices and an infusion of coconut purée." },
       { name: "Banga Rice", price: "320", desc: "Rice cooked with banga purée, chillies and crayfish." },
+      { name: "Leaf Peppered Rice & Stew", price: "300", desc: "One of Benin's classic dishes — steamed rice wrapped in leaves for a distinct aroma, served with onion, spicy tomato and palm-oil-based stew." },
     ],
   },
   {
@@ -98,15 +99,15 @@ export const categories: MenuCategory[] = [
     title: "Extra",
     items: [
       { name: "Yam & Egg Sauce", price: "270", desc: "Fresh yam with eggs, tomatoes and bell peppers." },
-      { name: "Asun", price: "370", desc: "Goat meat with herbs, chilli and bell peppers." },
-      { name: "Bole & Fish Sauce", price: "320", desc: "Fresh fish with plantains, bell peppers and chilli." },
+      { name: "Asun", price: "270", desc: "Goat meat with herbs, chilli and bell peppers." },
+      { name: "Bole & Fish Sauce", price: "270", desc: "Fresh fish with plantains, bell peppers and chilli." },
       { name: "Fried Beans", price: "270", desc: "Stir-fried in a rich palm-oil pepper sauce with greens & spices.", sub: [{ name: "With Plantains / Yam", price: "370" }] },
-      { name: "Barbeque", price: "320", desc: "Fish marinated in aromatic spice blends and grilled.", sub: [{ name: "Whole Fish", price: "570" }, { name: "Whole Tilapia", price: "320" }] },
+      { name: "Barbeque", price: "320", desc: "Fish marinated in aromatic spice blends and grilled.", sub: [{ name: "Whole Catfish", price: "370" }, { name: "Whole Tilapia", price: "370" }] },
       { name: "Yamarita & Eggs Sauce", price: "320", desc: "Fresh yam tempura with eggs and chilli." },
       { name: "Potatoes & Egg Sauce", price: "270", desc: "Potatoes with eggs, chilli and bell peppers." },
       { name: "Iseivu", price: "320", desc: "Goat head with chilli." },
       { name: "Eggs & Noodles", price: "270", desc: "Stir-fried noodles tossed with spicy sautéed onions, peppers, tomatoes and eggs.", sub: [{ name: "With Plantains / Yam", price: "370" }] },
-      { name: "Suya", price: "370", desc: "A spiced, nutty, smoky roasted charred beef." },
+      { name: "Suya", price: "270", desc: "A spiced, nutty, smoky roasted charred beef." },
     ],
   },
   {
@@ -116,7 +117,7 @@ export const categories: MenuCategory[] = [
       { name: "Potatoes", price: "120", desc: "Deep-fried potato wedges." },
       { name: "Snails", price: "370", desc: "Deep-fried snails with chilli and bell peppers." },
       { name: "Plantains", price: "120", desc: "Deep-fried or boiled plantains." },
-      { name: "Crunchy Prawns", price: "320", desc: "Tempura prawns with parsley and spices." },
+      { name: "Crunchy Prawns", price: "270", desc: "Tempura prawns with parsley and spices." },
       { name: "Plain Beans", price: "170", desc: "Plain boiled beans with added salt." },
     ],
   },
@@ -124,12 +125,14 @@ export const categories: MenuCategory[] = [
     title: "Protein",
     items: [
       { name: "Chicken", price: "170", desc: "Boiled or deep-fried chicken with peppers." },
+      { name: "Roasted Chicken", price: "180", desc: "Chicken glazed with a secret sauce and roasted." },
       { name: "Turkey", price: "170", desc: "Boiled then deep-fried turkey with peppers." },
       { name: "Titus Fish", price: "140", desc: "Boiled then deep-fried titus with peppers." },
       { name: "Catfish", price: "320", desc: "Boiled then deep-fried catfish with peppers." },
       { name: "Bush Meat", price: "370", desc: "Boiled then deep-fried bush meat with peppers." },
       { name: "Beef", price: "140", desc: "Boiled or deep-fried beef with pepper sauce." },
-      { name: "Goat Meat", price: "220", desc: "Boiled then deep-fried goat meat with peppers." },
+      { name: "Roasted Beef", price: "180", desc: "Beef marinated with spices and roasted." },
+      { name: "Goat Meat", price: "170", desc: "Boiled then deep-fried goat meat with peppers." },
       { name: "Hake Fish", price: "140", desc: "Boiled then deep-fried hake with peppers." },
       { name: "Tilapia", price: "220", desc: "Boiled then deep-fried tilapia with peppers." },
       { name: "Peppered Snails", price: "520", desc: "Boiled or fried snails then deep-fried with peppers." },
