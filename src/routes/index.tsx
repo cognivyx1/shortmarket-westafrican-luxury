@@ -151,7 +151,7 @@ function Hero() {
           Where the Horizon Meets the Heritage.
         </p>
         <p className="fade-in-up delay-500 mt-3 max-w-md md:max-w-lg text-[19px] leading-[1.65] md:text-[17px] lg:text-[19px] md:leading-relaxed text-cream/85 text-center md:text-left mx-auto md:mx-0">
-          West African Restaurant and Roof bar
+          West African Restaurant and Roof Top Bar
         </p>
 
         <div className="fade-in-up delay-700 mt-7 flex flex-col md:flex-row flex-wrap items-center justify-center md:justify-start gap-6 md:gap-3.5">
@@ -340,7 +340,7 @@ function Experience() {
           <dl className="mt-12 grid grid-cols-2 gap-y-8 border-t border-border pt-10 text-sm">
             {[
               ["Cuisine", "West African"],
-              ["Setting", "Restaurant & Bar"],
+              ["Setting", "Restaurant & Roof Top Bar"],
               ["Hours", "Monday – Sunday\n10:00 AM – 01:00 AM"],
               ["Dress", "Smart Casual"],
             ].map(([k, v]) => (
