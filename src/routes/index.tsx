@@ -199,10 +199,10 @@ function About() {
           </h2>
           <div className="mt-4 space-y-4 text-base leading-relaxed text-muted-foreground md:mt-6 md:space-y-6 md:text-lg">
             <p>
-              Ascend to a space where the soul of West Africa reaches for the clouds. Perched above the city bustle, <strong className="font-semibold">ONE40</strong> "vue" offers a sensory journey that begins with a panoramic mountain backdrop and ends with the bold, sun-kissed flavors of the coast.
+              Ascend to a space where the soul of West Africa reaches for the clouds. Perched above the city bustle, <strong className="font-semibold">ONE40</strong> "View" offers a sensory journey that begins with a panoramic mountain backdrop and ends with the bold, sun-kissed flavors of the coast.
             </p>
             <p>
-              As the sun dips behind the peaks, painting the sky in hues of amber and violet, enjoy an atmosphere that is as elevated as the vue. From the smoky depth of our Jollof to the botanical brightness of our signature cocktails, every moment here is a celebration of the heights—in culture, in flavor, and in perspective.
+              As the sun dips behind the peaks, painting the sky in hues of amber and violet, enjoy an atmosphere that is as elevated as the <strong className="font-semibold">"vue"</strong>. From the smoky depth of our Jollof to the botanical brightness of our signature cocktails, every moment here is a celebration of the heights—in culture, in flavor, and in perspective.
             </p>
           </div>
         </div>
