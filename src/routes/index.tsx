@@ -393,8 +393,8 @@ function Contact() {
               <a href="tel:+27665096997" className="underline-offset-4 hover:underline">
                 +27 66 509 6997
               </a><br />
-              <a href="mailto:hello@one40vue.co.za" className="underline-offset-4 hover:underline">
-                hello@one40vue.co.za
+              <a href="mailto:info@one40vue.co.za" className="underline-offset-4 hover:underline">
+                info@one40vue.co.za
               </a>
             </p>
           </div>
