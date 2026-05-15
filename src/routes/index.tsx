@@ -135,7 +135,7 @@ function Hero() {
 
       <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col justify-between px-6 pb-24 pt-20 md:justify-end md:pb-28 md:pt-32 md:px-10">
         <p className="fade-in mb-8 md:mb-6 text-[14px] md:text-base lg:text-[17px] uppercase [letter-spacing:0.4em] md:tracking-luxe text-cream/90 text-center md:text-left leading-relaxed">
-          108 Shortmarket Street · Cape Town
+          108 Shortmarket Street  Cape Town
         </p>
 
         <div className="flex flex-1 flex-col justify-end md:contents">
