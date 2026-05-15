@@ -135,7 +135,7 @@ function Hero() {
 
       <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col justify-between px-6 pb-24 pt-20 md:justify-end md:pb-28 md:pt-32 md:px-10">
         <p className="fade-in mb-8 md:mb-6 text-[14px] md:text-base lg:text-[17px] uppercase [letter-spacing:0.4em] md:tracking-luxe text-cream/90 text-center md:text-left leading-relaxed">
-          108 Shortmarket Street · Cape Town
+          108 Shortmarket Street  Cape Town
         </p>
 
         <div className="flex flex-1 flex-col justify-end md:contents">
@@ -384,13 +384,20 @@ function Contact() {
           <div>
             <p className="text-[10px] uppercase tracking-luxe text-gold">Visit</p>
             <p className="mt-3 font-serif text-lg leading-snug">
-              108 Shortmarket Street<br />Cape Town City Centre<br />8001
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=108+Shortmarket+Street+Cape+Town+City+Centre+8001"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline-offset-4 hover:underline hover:text-gold"
+              >
+                108 Shortmarket Street<br />Cape Town City Centre<br />8001
+              </a>
             </p>
           </div>
           <div>
             <p className="text-[10px] uppercase tracking-luxe text-gold">Contact</p>
             <p className="mt-3 font-serif text-lg leading-snug">
-              <a href="tel:+27665096997" className="underline-offset-4 hover:underline">
+              <a href="https://wa.me/27665096997" target="_blank" rel="noopener noreferrer" className="underline-offset-4 hover:underline">
                 +27 66 509 6997
               </a><br />
               <a href="mailto:info@one40vue.co.za" className="underline-offset-4 hover:underline">
