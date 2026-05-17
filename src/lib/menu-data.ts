@@ -19,7 +19,7 @@ export const categories: MenuCategory[] = [
       {
         name: "Jollof Rice",
         price: "270",
-        desc: "Basmati rice",
+        desc: "Basmati rice infused with chillies, tomatoes, onions and peppers served with chicken/beef/fish/turkey/assorted",
         sub: [
           { name: "Plain Jollof", price: "120" },
           { name: "With Goat Meat", price: "320" },
