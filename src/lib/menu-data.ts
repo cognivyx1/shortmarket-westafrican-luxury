@@ -19,7 +19,7 @@ export const categories: MenuCategory[] = [
       {
         name: "Jollof Rice",
         price: "270",
-        desc: "One-pot rice dish infused with chillies, tomatoes, onions and peppers — served with chicken / beef / fish / turkey / assorted.",
+        desc: "Basmati rice",
         sub: [
           { name: "Plain Jollof", price: "120" },
           { name: "With Goat Meat", price: "320" },
@@ -96,9 +96,9 @@ export const categories: MenuCategory[] = [
     title: "Swallow",
     items: [
       { name: "Poundo", price: "80", desc: "A staple made from pounded boiled yam." },
-      { name: "Semo", price: "80", desc: "Staple made from semolina." },
-      { name: "Eba", price: "70", desc: "Staple made from garri (dried & fried cassava flakes) and hot water." },
-      { name: "Starch", price: "80", desc: "Staple made from cassava starch and palm oil." },
+      { name: "Semo", price: "80", desc: "A staple made from semolina." },
+      { name: "Eba", price: "70", desc: "A staple made from garri (dried & fried cassava flakes) and hot water." },
+      { name: "Starch", price: "80", desc: "A staple made from cassava starch and palm oil." },
     ],
   },
   {
